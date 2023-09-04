@@ -6,3 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sui-sdk = { git = "https://github.com/MystenLabs/sui" }
+tokio = { version = "1", features = ["full"] }
+anyhow = { version = "1.0", default-features = false }
