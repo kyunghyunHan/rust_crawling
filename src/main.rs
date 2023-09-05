@@ -15,7 +15,7 @@ async fn main() -> Result<(), anyhow::Error> {
     .coin_read_api()
     .get_all_balances(address)
     .await?;
-
-   println!("{:?}",total_balance);
+   
+   println!("잔액:{:?}",total_balance[0].total_balance);
     Ok(())
 }
