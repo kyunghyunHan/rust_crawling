@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 sui-sdk = { git = "https://github.com/MystenLabs/sui" }
-tokio = { version = "1", features = ["full"] }
+tokio = { version = "1.2", features = ["full"] }
 anyhow = { version = "1.0", default-features = false }
